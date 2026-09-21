@@ -1,4 +1,4 @@
-```python
+python
 import streamlit as st
 import pandas as pd
 import requests
@@ -79,4 +79,3 @@ try:
 except Exception as e:
     st.error("데이터를 불러오지 못했습니다.")
     st.write(e)
-```
